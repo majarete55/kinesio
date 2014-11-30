@@ -11,11 +11,12 @@ $mpdf = new mPDF();
 $html = '
 <img  src="img/kinesioch.fw.png" height="75px" width:"100px" style="margin-left:27%"> 
 <h3 style="margin-left:44%; margin-top:7%">ARTICULOS</h3>
-
+<br>
 ';
-
+$i=1;
 while($busca = mysql_fetch_array($buscar)){
-$html .= $busca[0]. '<hr>';
+$html .= $i.".-   ".$busca[0]. '<br><br>';
+    $i++;
 }
 
 
