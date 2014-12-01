@@ -93,13 +93,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a  href="index.php">Principal</a>
-                    </li>
-                    <li>
-                        <a href="javascript:llamarasincrono('galeria.php', 'contenido');">Galeria</a>
+                        <a  href="index.php">Inicio</a>
                     </li>
                     <li>
                         <a href="javascript:llamarasincrono('particulos.php', 'contenido');">Articulos</a>
+                    </li>
+                    <li>
+                        <a href="javascript:llamarasincrono('galeria.php', 'contenido');">Galeria</a>
                     </li>
                     <li>
                         <a href="javascript:llamarasincrono('servicios.php', 'contenido');">Servicios</a>
