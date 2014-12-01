@@ -24,7 +24,7 @@
 
             do {        
                 if($busca[0]!=""){
-                    echo "<li class='list-group-item'>".$busca['nombre']."<a href='dcliente.php?id=".$busca['cedula']."'><span id='gly' class='glyphicon glyphicon-remove'></span></a><a rel='abrir' class='enlace'  data-toggle='modal' data-target='#ecli' onclick='return cli(this.id);' id='".$busca['cedula']."' ><span id='gly' class='glyphicon glyphicon-pencil'></span></a></li>";
+                    echo "<li class='list-group-item'>".$busca['cedula']." ".$busca['nombre']."<a href='dcliente.php?id=".$busca['cedula']."'><span id='gly' class='glyphicon glyphicon-remove'></span></a><a rel='abrir' class='enlace'  data-toggle='modal' data-target='#ecli' onclick='return cli(this.id);' id='".$busca['cedula']."' ><span id='gly' class='glyphicon glyphicon-pencil'></span></a></li>";
 //                    echo "<input type='hidden' name='cedula' id='".$busca['cedula']."' value='".$busca['cedula']."'/>";
                     echo "<input type='hidden' name='nombre' id='".$busca['cedula']."' value='".$busca['nombre']."'/>";
                     echo "<input type='hidden' name='telefono' id='".$busca['cedula']."' value='".$busca['tlf']."'/>";

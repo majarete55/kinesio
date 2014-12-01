@@ -69,26 +69,10 @@
                         </li>
 
                         <br>
-                        <li id='litem'>
-                            <a id='item' class="item1">Pagina</a>
-                        </li>
-                        <ul style='list-style: none;' id="panel1">
-                            <li id='litem'>
-                                <a id='item' class="item1" href="javascript:llamarasincrono('articulos.php', 'contenido');">articulos</a>
-                            </li>
-                            <li id='litem'>
-                                <a id='item' class="item1" href="javascript:llamarasincrono('noticias.php', 'contenido');">noticias</a>
-                            </li>
-                            <li id='litem'>
-                                <a id='item' class="item1" href="javascript:llamarasincrono('admingaleria.php', 'contenido');">galeria</a>
-                            </li>
-                            
-                        </ul>
-                        <li id='litem'>
+                          <li id='litem'>
                             <a id='item' href="javascript:llamarasincrono('clientes.php', 'contenido');">Afiliaciones</a>
                         </li>
-                        
-                        <li id='litem'>
+                         <li id='litem'>
                             <a id='item' class="item2">Clases</a>
                         </li>
                         <ul style='list-style: none;' id="panel2">
@@ -100,6 +84,21 @@
                             </li>                            
                         </ul>
                         <li id='litem'>
+                            <a id='item' class="item1">Pagina</a>
+                        </li>
+                        <ul style='list-style: none;' id="panel1">
+                            <li id='litem'>
+                                <a id='item' class="item1" href="javascript:llamarasincrono('articulos.php', 'contenido');">articulos</a>
+                            </li>
+                            <li id='litem'>
+                                <a id='item' class="item1" href="javascript:llamarasincrono('admingaleria.php', 'contenido');">galeria</a>
+                            </li>
+                            <li id='litem'>
+                                <a id='item' class="item1" href="javascript:llamarasincrono('noticias.php', 'contenido');">noticias</a>
+                            </li>     
+                        </ul>                    
+                       
+                        <li id='litem'>
                             <a id='item' href="javascript:llamarasincrono('planes.php', 'contenido');">Planes</a>
                         </li>
                         <li id='litem'>
@@ -109,6 +108,12 @@
                             <a id='item' class="item5">Reportes</a>
                         </li>
                         <ul style='list-style: none;' id="panel5">
+                             <li id='litem'>
+                                <a id='item' class="item5" href="javascript:llamarasincrono('racoment.php', 'contenido');">Articulos</a>
+                            </li>
+                              <li id='litem'>
+                                <a id='item' class="item5" href="javascript:llamarasincrono('rpmorosas.php', 'contenido');">Morosidad</a>
+                            </li>
                             <li id='litem'>
                                 <a id='item' class="item5" href="javascript:llamarasincrono('rpagosp.php', 'contenido');">Pagos</a>
                             </li>
@@ -116,13 +121,7 @@
                                 <a id='item' class="item5" href="javascript:llamarasincrono('raplanes.php', 'contenido');">Planes</a>
                             </li>
                             <li id='litem'>
-                                <a id='item' class="item5" href="javascript:llamarasincrono('rpmorosas.php', 'contenido');">Morosidad</a>
-                            </li>
-                            <li id='litem'>
                                 <a id='item' class="item5" href="javascript:llamarasincrono('rpsarticulos.php', 'contenido');">Profesores</a>
-                            </li>
-                            <li id='litem'>
-                                <a id='item' class="item5" href="javascript:llamarasincrono('racoment.php', 'contenido');">Articulos</a>
                             </li>
                         </ul>
                         <li id='litem'>

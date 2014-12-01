@@ -12,5 +12,5 @@
     $var=mysql_query($resul);
 //    echo $resul;
 //    echo $var;
-    header("location:admin.php");
+    header("location:admin.php?p=clientes");
 ?>

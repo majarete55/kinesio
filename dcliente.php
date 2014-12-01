@@ -7,5 +7,5 @@
     //consulta
     $resul = "DELETE FROM cliente WHERE cedula='$id'"; 
     $var=mysql_query($resul); 
-    header("location:admin.php");
+    header("location:admin.php?p=clientes");
 ?>

@@ -9,6 +9,8 @@
     $fecha = $_POST["fecha"];
     $trozo = explode("-", $fecha);
     //conecto con la bd
+   $tipo=$_SESSION['tipo'];
+    $aux=$tipo+4;
     include("conexion.php");
     //insertar cliente
     $resul = "INSERT INTO cliente (cedula, nombre, tlf, correo, fechains, idplan) VALUES ('$cedula', '$nombre', '$tlf', '$correo', '$fecha', '$idplan')"; 
@@ -23,7 +25,8 @@
     $fecha1 = str_replace("/","-",$fecha);
     $resul = "INSERT INTO mensualidad (mes, ano, cedcli, monto, fecha, estado, descuento) VALUES ('$trozo[1]', '$trozo[0]','$cedula','$busca2[0]','$fecha','1','0')"; 
     $var=mysql_query($resul);
-    header("location:admin.php");
+ $_SESSION['tipo']=$aux-4;
+    header("location:admin.php?p=clientes");
 //    echo $resul;
 //    echo $var;
 
